@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	 font-family: 'NanumSquare';
+ 
+}
+#visual{
+	width: 1895px;
+	height: 1900px;
+		background: #f0e0c1; 
+	margin: 0 auto;
+	position: relative;
+	
+
+}
+.text{
+	text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	top:280px;
+	left:620px;
+	font-size: 40px;
+	color: #205b2d;
+	font-weight: 500;
+}
+.text22{
+    text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	top:350px;
+	left: 730px;
+	float: left;
+	font-size: 30px;
+	color: #205b2d;
+	font-weight: 500;
+}
+ 
+.text3{text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	top:640px;
+	left: 700px;
+	float: left;
+	font-size: 35px;
+	color: #205b2d;
+	font-weight: 700;
+}
+.text4{
+	text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	top:700px;
+	left: 800px;
+	float: left;
+	font-size: 20px;
+	color: #333333;
+	font-weight: 500;
+	line-height: 25px;
+}
+.text5{
+	text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	top:790px;
+	left:530px;
+	font-size: 35px;
+	color: #205b2d;
+	font-weight: 500;
+}
+#img2{
+ 
+position: absolute;	
+	top:500px;
+	left: 850px;
+	
+}
+
+#img3{
+	position: absolute;	
+	top:1000px;
+	left: 550px;
+}
+#home{
+	width: 1895px;
+	height: 200px;
+	background: #fff;
+	position: relative;
+}
+#circle .span{
+	font-size: 20px;
+	line-height: 50px;
+	position: absolute;
+	left: 30px;
+	font-weight: 600;
+}
+#circle{
+	width: 175px;
+	height: 50px;
+	background: #a7a0a0;
+	border-radius: 20px;
+	position: absolute;
+	text-align: right;
+	left:530px;
+	top: 70px;
+}
+#circle .span{
+	text-align: center;
+	
+}
+#lasttex{
+	position: absolute;
+	right:490px;
+	top: 73px;
+
+
+}
+#lasttex .span2{
+	font-size: 20px;
+}

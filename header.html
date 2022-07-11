@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+	*{ margin: 0; padding: 0; }
+
+li{list-style: none; }
+a{text-decoration: none; color: #333;}
+body {
+	font-family: 'NanumSquare';
+}
+#wrap { width: 100%; }
+header { 
+	width: 100%;
+	height: 196px;
+	/*background-color: yellow;*/
+	
+}
+#top_area {
+	width: 1200px;
+	height: 156px;
+	/*background-color: aqua;*/
+	margin: 0 auto;
+}
+#top_area .top_box { float: left; height: 156px; }
+#sns {
+	width: 500px;
+	/*background-color: #ccc;*/
+}
+#sns ul li {
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 30px;
+	margin-top: 62px;
+}
+#sns ul li a img {
+	display: block;
+	width: 32px;
+	height: 32px;
+} 
+
+#logo {
+	width: 200px;
+	/*background-color: #666;*/
+	text-align: center;
+}
+#logo a img {
+	height: 120px;
+	padding-top: 18px;
+}
+#top_menu {
+	width: 500px;
+	/*background-color: #999;*/
+	line-height: 156px;
+}
+#top_menu ul li {
+	float: right;
+	font-size: 14px;
+	margin-left: 30px;
+}
+header nav {
+	width:100%;
+	height:38px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #000;
+	
+	
+}
+nav > ul {
+	width:1023px;
+	height:39px;
+	margin:0 auto;
+	padding-left: 175px;
+	
+	/*background-color:#ccc;*/
+}
+nav > ul > li {
+	height:39px;
+	float:left;
+	font-size:18px;
+	line-height:40px;
+	font-weight: 700;
+
+	
+	/*background-color:blue;*/
+}
+nav > ul > li > a {
+	padding:0 60px;
+	
+}
+.sub {
+	width: 100%;
+	height: 249px;
+	/*background-color: yellow;*/
+	position:relative;
+	z-index:3;
+	display:none;
+	margin-top: 20px;
+}
+
+
+.sub li {
+	font-size:14px;
+	text-align:center;
+	font-weight: 400;
+	
+}
+
+
+#sub_bg {
+	width:100%;
+	height:250px;
+	background-color: #fff;
+	border-bottom:1px solid #666;
+	position:absolute;
+	top:196px;
+	left:0;
+	z-index:2;
+	display:none;
+}
+.sub li a:hover {
+	color:#3d7542;
+}
+/*.sub_01 li a가 flavor클래스를 가지고 있으면*/
+.sub_01 li a.flavor {
+	opacity: 1;
+}
+
+	</style>
+</head>
+
+<body>
+	<div id="wrap"> 
+	<header>
+		<div id="top_area">
+			<div id="sns" class="top_box"> 
+				<ul> 
+					<li> 
+						<a href="https://www.youtube.com/?gl=KR" target="_blank"> 
+							<img src="img/youtube2.png" alt="유튜브"> 
+						</a>
+					</li>
+					<li> 
+						<a href="https://twitter.com/" target="_blank"> 
+							<img src="img/twieer.png" alt="트위터">
+						</a> 
+					</li>
+					<li> 
+						<a href="https://www.facebook.com/?ref=logo" target="_blank">
+						   <img src="img/facebool.png" alt="페스북"> 
+						</a>	
+						
+					</li>
+					<li> 
+						<a href= "https://www.instagram.com/" target="_blank">
+							<img src="img/inster.png" alt="인스타그램"> 
+						</a> 
+						
+					</li>
+				</ul>
+				
+			</div>
+		
+			<h1 id="logo" class="top_box">
+			<a href="index.html"><img src="img/kurly-logo.png" alt="로고"> </a>
+			
+			</h1>
+				<div id="top_menu" class="top_box">
+					<ul>
+						<li><a href="#">CONTACT US </a></li>
+						<li><a href="#">고객센터 </a></li>
+						<li><a href="#">로그인 </a></li>
+					</ul>
+				</div>
+			</div>
+			<nav> 
+				<ul> 
+					
+					<li> 
+						<a href="#">신상품</a>
+						<ul class="sub">
+							
+                         </ul>
+					</li>
+					
+					<li> 
+						<a href="#">베스트 </a>
+						<ul class="sub">
+							
+                        </ul>
+					
+					</li>
+						<li> 
+						<a href="#">알뜰상품</a>
+							
+						<ul class="sub">
+							<li><a href="#"> 타임세일 </a></li>
+							
+							
+                        </ul>
+					
+					</li>
+					
+					<li> 
+						<a href="#">이벤트 </a>
+						<ul class="sub">
+							<li><a href="#">진행중이벤트 </a></li>
+							<li><a href="#">당첨자 발표</a></li>
+							<li><a href="#"></a></li>
+                        </ul>
+					
+					</li>
+					
+					<li> 
+						<a href="#">오늘의컬리</a>
+						
+						<ul class="sub">
+							<li><a href="#"> 오늘의 추천상품 </a></li>
+						
+                        </ul>
+					
+					</li>
+						
+					
+					
+				</ul>
+			<div id="sub_bg"></div>
+		</nav>
+		
+	</header>
+</body>
+</html>
